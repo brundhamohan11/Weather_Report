@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Barriecito&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
+
+body{
+    font-family: "Bodoni Moda", serif;
+    background: linear-gradient(180deg,rgb(63, 180, 63) 0%,#0e0eeb 100%);
+    background-repeat: no-repeat;
+    height:100vh;
+    width:100vw;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    color:beige;
+
+}
+h1{
+    margin-top:5%;
+    font-size:68px;
+
+}
+#button{
+    width:168px;
+    height:60px;
+    background: rgb(247, 212, 14);
+    color: black;
+    font-size: 36px;
+    line-height:50px;
+    text-align:center;
+}
+#button:hover{
+    cursor:pointer;
+    box-shadow:0px 3px 3px hotpink;
+}
+#weathercontent,#weather{
+    font-size:40px;
+    line-height:38px;
+}
+img{
+    margin-top:10px;
+}
